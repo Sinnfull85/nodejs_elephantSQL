@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const router = require("./usersRouter")
+const router = require("./usersRouter", "./ordersRouter")
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send('Haaallllloooo Welt!!!')
 })
 
-app.use("/api", router)
+app.use("/api", router, router2)
 
 module.exports = app;
 
