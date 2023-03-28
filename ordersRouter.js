@@ -3,7 +3,7 @@ const pool = require("./databank");
 
 const router2 = Router();
 
-router.get("/user", async (req, res) => {
+router2.get("/user", async (req, res) => {
   try {
     const { rows } = await pool.query("SELECT * from users");
     res.json({ data: rows });
@@ -12,7 +12,7 @@ router.get("/user", async (req, res) => {
   }
 });
 
-router.get("/user/:id", async (req, res) => {
+router2.get("/user/:id", async (req, res) => {
   const { id } = req.params;
   try {
     const { rows } = await pool.query("SELECT * FROM users WHERE id=$1;", [id]);
@@ -22,7 +22,7 @@ router.get("/user/:id", async (req, res) => {
   }
 });
 
-router.post("/user", async (req, res) => {
+router2.post("/user", async (req, res) => {
   const { firstname, lastname, age } = req.body;
   try {
     const { rows } = await pool.query(
