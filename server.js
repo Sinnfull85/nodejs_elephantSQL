@@ -9,7 +9,8 @@ app.get('/', (req, res) => {
   res.send('Haaallllloooo Welt!!!')
 })
 
-app.use("/api", router)
+app.use("/api", orders)
+app.use("/api", users)
 
 module.exports = app;
 
