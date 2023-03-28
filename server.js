@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const router = require("./usersRouter", "./ordersRouter")
+const router = require("./users", "./orders")
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
