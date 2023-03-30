@@ -37,7 +37,7 @@
 </td><td valign="top" width="50%">
 
 <div align="center">
-<div style="padding-top:56.200%;position:relative;"><img src="https://gifer.com/embed/bJk" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></img></div><p><a href="https://gifer.com"></a></p>
+  <img src=https://i.gifer.com/bJk.gif</img>
 </div>  
 
 
