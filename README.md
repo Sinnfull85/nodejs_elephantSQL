@@ -21,7 +21,7 @@
 <br/>  
 
 
-## Rapidfire  
+## Continuous fire  
 <table><tr><td valign="top" width="50%">
 
 - 🔭 I’m currently working on some private projects  
