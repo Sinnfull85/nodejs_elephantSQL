@@ -1,4 +1,3 @@
-# nodejs_elephantSQL
 ## Hi 👋, I'm Andreas L  
   
 
@@ -37,7 +36,7 @@
 </td><td valign="top" width="50%">
 
 <div align="center">
-  <img src=[https://i.gifer.com/bJk.gif align="center" style="width: 100%" />
+<img src="https://github.com/Sinnfull85/sinnfull85.github.io/blob/main/images/bJk.gif" align="center" style="width: 100%" />
 </div>  
 
 
